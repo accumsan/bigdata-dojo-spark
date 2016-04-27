@@ -10,7 +10,7 @@ import org.junit.Test;
  */
 public class LemagTest {
     @Test
-    public void test() {
+    public void helloWorld() {
         SparkConf conf = new SparkConf();
         conf.setAppName("Spark Hadoop");
         conf.setMaster("local");
